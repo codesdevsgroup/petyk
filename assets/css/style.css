@@ -9,3 +9,44 @@
   --nav-default-color: #636875;
   --bg-color: #FFFFFF;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Deixar a Largura do HTML em 100%*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/*=========== home ================*/
+
+#home {
+  background-color: #495833;
+  height: 672px;
+}
+
+#home .container {
+  display: flex;
+  margin-top: 80px;
+}
+
+#home nav {
+  height: 80px;
+}
+
+#home .home-contents {
+  width: 340px;
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#home img {
+  position: absolute;
+  right: 0;
+}
