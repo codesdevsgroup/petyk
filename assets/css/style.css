@@ -8,6 +8,7 @@
   --title-color: #1B2336;
   --nav-default-color: #636875;
   --bg-color: #FFFFFF;
+  --bg-color-2: #495833;
 }
 
 html {
@@ -19,13 +20,15 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background-color: var(--bg-color-2);
+  font-family: 'Inter', sans-serif;
 }
 
 /*=========== home ================*/
 
 #home {
-  background-color: #495833;
-  height: 672px;
+  background-color: var(--bg-color-2);
+  height: 592px;
 }
 
 #home .container {
@@ -34,19 +37,69 @@ body {
 }
 
 #home nav {
+  background-color: var(--bg-color-2);
   height: 80px;
 }
 
 #home .home-contents {
   width: 340px;
-  height: 672px;
+  height: 592px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
 }
 
+#home h2,
+#home h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#home h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#home h1 {
+  font-size: 36px;
+  line-height: 64px;
+}
+
+#home p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+#home .home-contents button {
+  width: 192px;
+  height: 47px;
+  background-color: transparent;
+  border: 3px solid #FFFFFF;
+  margin-top: 40px;
+}
+
+#home .home-contents a {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 #home img {
   position: absolute;
   right: 0;
+  top: 0;
+}
+
+/*=========== feedstock ================*/
+
+#feedstock {
+  background-color: var(--bg-color);
 }
