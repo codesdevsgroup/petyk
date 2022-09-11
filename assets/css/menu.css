@@ -5,104 +5,36 @@
 }
 
 nav {
-    display: flex;
-    position: absolute;
-    height: var(--nav-height);
-    top: 0;
-    width: 100vw;
-    z-index: 100;
-    background-color: var(--bg-color);
-  }
+  display: flex;
+  position: absolute;
+  height: 80px;
+  top: 0;
+  width: 100vw;
+  background-color: var(--bg-color-2);
+  align-items: center;
+  justify-content: space-between;
+}
 
-  nav#navigation .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+nav#navigation .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav#navigation .container button {
+  z-index: 2;
+}
   
-  nav#navigation .menu {
-    display: flex;
-    height: 29px;
-  }
+nav#navigation ul {
+  display: none;
+}
   
-  nav#navigation .menu ul {
-    display: inherit;
-
-  }
-
-  nav#navigation .menu span {
-    display: inherit;
-
-    margin-top: 1rem;
-    width: 2.75rem;
-    border: 0.2rem solid var(--btn-color);
-    border-radius: 3px;
-
-    transform: scaleX();
-
-  }
-
-  nav#navigation li:hover span {
-    width: 100%;
-    transition: width 200ms
-  }
+#navigation li {
+  display: flex;
+  justify-items: center;
+}
   
-  #navigation li {
-    display: flex;
-    justify-items: center;
-  }
-
-  #navigation ul li {
-    display: inline;
-    padding-left: 6rem;
-  }
-
-  #navigation ul li:last-child {
-    padding-left: 6rem;
-  }
-  
-  #navigation ul li a{
-    text-decoration: none;
-    color: var(--nav-default-color);  
-  }
-  #navigation ul li a:hover{
-    color: var(--btn-color);
-  }
-  
-  #navigation .menu a.button.active {
-    display: flex;
-    position: relative;
-    bottom: 10px;
-    height: 50px;
-    width: 223.25px;
-    margin-left: 60px;
-  }
-  
-  nav#navigation .open-menu,
-  nav#navigation .close-menu,
-  nav#navigation .button {
-    display: none;
-  }
-
-  nav#navigation .button .active {
-    display: flex;
-  }
-
-
-@media screen and (max-width: 1570px) and (min-width: 992px) {
-    #navigation .menu a.button.active {
-      width: 180px;
-  }
-
-  #navigation ul li {
-      padding-left: 4rem;
-  }
-
-  #navigation ul li:last-child {
-      padding-left: 4rem;
-  }
-
-  #navigation .menu a.button.active {
-      margin-left: 45px;
-  }
+#navigation ul li a{
+  text-decoration: none;
+  color: var(--nav-default-color);  
 }
