@@ -39,6 +39,13 @@ body {
 #home nav {
   background-color: var(--bg-color-2);
   height: 80px;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home .menu-options {
+  display: none;
 }
 
 #home .home-contents {
@@ -92,7 +99,7 @@ body {
   color: #FFFFFF;
 }
 
-#home img {
+#home .bg-img-home {
   position: absolute;
   right: 0;
   top: 0;

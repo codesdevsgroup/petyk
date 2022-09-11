@@ -9,7 +9,7 @@ nav {
     position: absolute;
     height: var(--nav-height);
     top: 0;
-    /* width: 100vw; */
+    width: 100vw;
     z-index: 100;
     background-color: var(--bg-color);
   }
