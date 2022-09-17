@@ -103,7 +103,16 @@ body {
   background-color: var(--bg-color);
 }
 
+<<<<<<< Updated upstream
 /*=========== utilização ================*/
+=======
+/*=========== modal ================*/
+#nossosprodutos {
+  background: #FFFFFF;
+}
+
+/*=========== modal ================*/
+>>>>>>> Stashed changes
 
 #modal .btn-modal {
   height: 47px;
