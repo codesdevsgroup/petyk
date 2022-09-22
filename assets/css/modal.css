@@ -1,5 +1,25 @@
 ﻿/*=========== modal ================*/
 
+.modal-body h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #495833;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.modal-body h2::after{
+    content: "";
+    width: 75px;
+    border: 1px solid #495833;
+    margin-top: 10px;
+}
+
 #modal .btn-modal {
     height: 47px;
     background-color: red;
@@ -12,3 +32,55 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.modal-header{
+    border-bottom: none;
+}
+
+/*Modal Contato*/
+
+
+    #area_modal_contato{
+        border-radius: 0;  
+    }
+
+    .modal-body form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .modal-body div {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+
+    }
+
+    .modal-body div label{
+        display:block;
+        
+    }
+
+    .modal-body div input{
+        display: block;
+        height: 40px;
+        width: 520px;
+    }
+
+    .modal-body div textarea{
+        width: 520px;
+    }
+
+    .modal-body div button{
+        padding: 10px 38px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: uppercase; 
+        color: #495833;
+        background: #DEAD28;
+         
+    }

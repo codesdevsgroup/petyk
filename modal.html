@@ -31,32 +31,60 @@
 </head>
 
 <body>
+  
+  <button type="button" class="btn-modal" data-bs-toggle="modal" data-bs-target="#modal_contato">Orçamento</button> 
+  
+<section>
+  
 
-  <section id="about" class="row">
+  <div id="modal_contato" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-    <div class="col-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Y4goaZhNt4k" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="modal-dialog modal-xl" role="document" >
+
+      <div class="modal-content" id="area_modal_contato">
+
+        <div class="modal-header">
+          <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <form action="" style="text-align:center">
+            <h2>Orçamento</h2>
+
+            <div id="orcamento_campo_nome">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome">
+            </div>
+
+            <div id="orcamento_campo_email">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+
+            <div id="orcamento_campo_telefone">
+              <label for="telefone">Telefone</label>
+              <input type="text" id="telefone" name="telefone" placeholder="(99) 99999-9999">
+            </div>
+            
+            <div id="orcamento_campo_mensagem">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" cols="44" rows="5"></textarea>
+            </div>
+
+            <div id="orcamento_botao">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+          
+
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="col-6">
-      <h3>Sobre Nós</h3>
-      <p>
-        A Petyk Eucalipto Tratado é uma empresa tradicional em seu segmento, com 17 anos de mercado e mais de 35 anos de experiência no ramo madeireiro.
-      </p>
 
-      <p>
-        Somos uma das empresas pioneiras a produzir madeira tratada no Mato Grosso do Sul, com uma equipe experiente, que entrega madeira de qualidade e busca soluções práticas e rentáveis para nossos clientes.
-      </p> 
-
-      <p>
-        Por essas e outras, a Petyk Eucalipto Tratado está há tanto tempo no mercado, sendo recomendada por nossos clientes, pois manter a confiança em nossa madeira é uma tradição do nosso negócio.
-      </p>  
-
-    </div>
-
-  </section>
+</section>
+  
 
   <!-- Optional JavaScript; choose one of the two! -->
 
