@@ -4,7 +4,7 @@
   position: fixed;
 }
 
-nav {
+nav#navigation {
   display: flex;
   position: absolute;
   height: 80px;
@@ -23,10 +23,18 @@ nav#navigation .container {
 
 nav#navigation .container button {
   z-index: 2;
+  background-color: transparent;
+  border: none;
 }
   
-nav#navigation ul {
+nav#navigation .menu-options {
   display: none;
+}
+
+nav#navigation .active_menu {
+  display: flex;
+  position: fixed;
+  right: 0;
 }
   
 #navigation li {

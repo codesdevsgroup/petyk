@@ -32,7 +32,7 @@
   <nav id="navigation">
     <div class="container">
       <a><img class="logo" src="./assets/img/logo.png" alt="logo"/></a>
-      <button>
+      <button onclick="showMenu()">
         <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M2 11.7385H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -40,14 +40,16 @@
         </svg>
       </button>
     </div>
-    <ul class="menu-options">
-      <li><a href="#">home</a></li>
-      <li><a href="#">produtos</a></li>
-      <li><a href="#">aplicação</a></li>
-      <li><a href="#">diferencial</a></li>
-      <li><a href="#">sobre nós</a></li>
-      <li><a href="#">contatos</a></li>
-    </ul>
+    <div class="menu-options">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">produtos</a></li>
+        <li><a href="#">aplicação</a></li>
+        <li><a href="#">diferencial</a></li>
+        <li><a href="#">sobre nós</a></li>
+        <li><a href="#">contatos</a></li>
+      </ul>
+    </div>
   </nav>
 
 
@@ -71,7 +73,7 @@
 
 
 
-  
+
   <section id="home">
     <div class="container">
         <!-- area do menu -->
@@ -397,7 +399,7 @@
 </section>
 
 <!-- Optional JavaScript; choose one of the two! -->
-
+<script src="./assets/js/menu.js"></script>
  
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
