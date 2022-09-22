@@ -32,7 +32,7 @@
   <nav id="navigation">
     <div class="container">
       <a><img class="logo" src="./assets/img/logo.png" alt="logo"/></a>
-      <button onclick="showMenu()">
+      <button class="open_menu" onclick="showMenu()">
         <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M2 11.7385H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -41,6 +41,12 @@
       </button>
     </div>
     <div class="menu-options">
+      <button class="close_menu" onclick="showMenu()">
+        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 17L1 9L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg> 
+      </button>
+
       <ul>
         <li><a href="#">home</a></li>
         <li><a href="#">produtos</a></li>

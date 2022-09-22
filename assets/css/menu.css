@@ -21,28 +21,63 @@ nav#navigation .container {
   justify-content: space-between;
 }
 
-nav#navigation .container button {
+nav#navigation button {
   z-index: 2;
   background-color: transparent;
   border: none;
+  height: 25px;
+  width: 35px;
 }
   
 nav#navigation .menu-options {
   display: none;
+  background-color: var(--nav-secondary-color);
+  height: 100vh;
+  width: calc(20vh + 20%);
+  right: -500px;
+  animation-duration: 500ms;
+  animation-name: slideout;
 }
 
 nav#navigation .active_menu {
   display: flex;
   position: fixed;
   right: 0;
+  top: 0;
+  z-index: 100;
+  transition: left 200ms;
+  animation-duration: 500ms;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    right: -500px;
+  }
+
+  to {
+    right: 0px;
+  }
 }
   
 #navigation li {
   display: flex;
   justify-items: center;
+  margin-top: 32px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+}
+
+#navigation li:first-child {
+  margin-top: 50px;
 }
   
 #navigation ul li a{
   text-decoration: none;
-  color: var(--nav-default-color);  
+  color: #FFFFFF;
 }

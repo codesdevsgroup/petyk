@@ -2,18 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px dotted;
 }
 
 :root {
   --title-color: #1B2336;
   --nav-default-color: #636875;
+  --nav-secondary-color: #DEAD28;
   --bg-color: #FFFFFF;
   --bg-color-2: #495833;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*Deixar a Largura do HTML em 100%*/
