@@ -164,7 +164,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-right: 120px;
+  padding-right: 30px;
 }
 
 .section-details .texts h3 {
@@ -225,7 +225,7 @@ body {
 #reference h4 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 30px;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -253,7 +253,7 @@ body {
 #reference p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 32px;
+  line-height: 28px;
   color: #FFFFFF;
 }
 
@@ -277,18 +277,18 @@ body {
 
 #reference .ref-texts {
   border: 4px solid white;
-  margin: 50px 0 50px -50px;
+  margin: 50px 35px 50px -35px;
   padding: 22px 58px;
 }
 
 #reference .inverter .ref-texts {
-  margin: 50px -50px 50px 0;
+  margin: 50px -35px 50px 35px;
   z-index: 2;
 }
 
 /*=========== utilização ================*/
-#nossosprodutos {
-  background: #FFFFFF;
+#products {
+  background-color: #FFFFFF;
 }
 
 /*=========== about ================*/
