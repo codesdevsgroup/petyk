@@ -118,6 +118,13 @@ body {
   z-index: 1;
 }
 
+.validation-numbers {
+  height: 200px;
+}
+
+.section-details {
+  height: 467px;
+}
 
 
 /*=========== utilização ================*/
