@@ -1,0 +1,27 @@
+﻿
+
+#modal h2::after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    margin-top: 10px;
+  }
+
+#modal h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 80px;
+}
+
+#modal {
+    height: 588px;
+}
