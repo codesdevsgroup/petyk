@@ -194,6 +194,86 @@ body {
   color: #495833;
 }
 
+/*=========== reference ================*/
+
+#reference {
+  margin-block: 80px;
+}
+
+#reference h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#reference h2::after{
+  content: "";
+  width: 75px;
+  border: 2px solid;
+  background-color: #495833;
+  margin-top: 10px;
+}
+
+#reference h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#reference h4::after{
+  content: "";
+  width: 75px;
+  border: 2px solid;
+  background-color: #495833;
+  margin-top: 10px;
+}
+
+#reference p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+#reference .ref-description:not(:last-child) {
+  padding-bottom: 80px;
+}
+
+#reference .ref-image img {
+  width: 100%;
+}
+
+.inverter div:first-child {
+  order: 2;
+}
+
+#reference .ref-texts {
+  border: 4px solid white;
+  margin: 50px 0 50px -50px;
+  padding: 22px 58px 70px 58px;
+}
+
+#reference .inverter .ref-texts {
+  margin: 50px -50px 50px 0;
+  z-index: 2;
+}
+
 /*=========== utilização ================*/
 #nossosprodutos {
   background: #FFFFFF;
