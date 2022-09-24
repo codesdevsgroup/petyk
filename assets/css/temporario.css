@@ -1,6 +1,4 @@
-﻿
-
-#modal h2::after {
+﻿#modal h2::after {
     content: "";
     width: 80px;
     height: 3px;
@@ -36,16 +34,29 @@
     margin-bottom: 20px;
 }
 
+.modal1 div, .modal2 div, .modal3 div, .modal4 div {
+    background: rgba(25, 26, 23, 0.7);
+    border-radius: 0%;
+}
+
 .modal1 {
     background-image: url("../img/modal01.jpg");
+    width: 220px;
+    height: 287px;
 }
+
 .modal2 {
     background-image: url("../img/modal02.jpg");
-    
+    width: 220px;
+    height: 287px;    
 }
 .modal3 {
     background-image: url("../img/modal03.jpg");
+    width: 220px;
+    height: 287px;
 }
 .modal4 {
     background-image: url("../img/modal04.jpg");
+    width: 220px;
+    height: 287px;
 }
