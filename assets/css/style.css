@@ -105,6 +105,21 @@ body {
   background-color: var(--bg-color);
 }
 
+.validation-numbers,
+.section-edge {
+  background-color: var(--nav-secondary-color);
+}
+
+.section-edge {
+  width: 270px;
+  height: 467px;
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
 /*=========== utilização ================*/
 #nossosprodutos {
   background: #FFFFFF;
