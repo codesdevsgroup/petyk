@@ -216,9 +216,9 @@ body {
 
 #reference h2::after{
   content: "";
-  width: 75px;
-  border: 2px solid;
-  background-color: #495833;
+  width: 80px;
+  height: 3px;
+  background-color: white;
   margin-top: 10px;
 }
 
@@ -226,8 +226,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
-
+  margin-bottom: 30px;
   font-family: 'Montserrat';
   font-weight: 700;
   font-size: 24px;
@@ -238,21 +237,34 @@ body {
 
 #reference h4::after{
   content: "";
-  width: 75px;
-  border: 2px solid;
-  background-color: #495833;
+  width: 80px;
+  height: 3px;
+  background-color: white;
   margin-top: 10px;
+}
+
+#reference .ref-texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #reference p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 32px;
   color: #FFFFFF;
 }
 
 #reference .ref-description:not(:last-child) {
   padding-bottom: 80px;
+}
+
+#reference .ref-image {
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
 #reference .ref-image img {
@@ -266,7 +278,7 @@ body {
 #reference .ref-texts {
   border: 4px solid white;
   margin: 50px 0 50px -50px;
-  padding: 22px 58px 70px 58px;
+  padding: 22px 58px;
 }
 
 #reference .inverter .ref-texts {
