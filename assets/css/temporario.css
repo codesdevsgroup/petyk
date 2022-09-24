@@ -25,3 +25,23 @@
 #modal {
     height: 588px;
 }
+
+.modaluse {
+    width: 220px;
+    height: 287px;
+}
+
+.modal1 {
+    background-image: url("../img/modal01.jpg");
+    
+}
+.modal2 {
+    background-image: url("../img/modal02.jpg");
+    
+}
+.modal3 {
+    background-image: url("../img/modal03.jpg");
+}
+.modal4 {
+    background-image: url("../img/modal04.jpg");
+}
