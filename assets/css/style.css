@@ -15,7 +15,6 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 /*Deixar a Largura do HTML em 100%*/
@@ -23,8 +22,13 @@ html,
 body {
   width: 100%;
   height: 100%;
+}
+
+body {
   background-color: var(--bg-color-2);
   font-family: 'Inter', sans-serif;
+
+  overflow: overlay;
 }
 
 /*=========== home ================*/
