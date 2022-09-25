@@ -2,6 +2,25 @@
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1140px !important;
   }
+
+  .container-middle {
+    max-width: 570px;
+    margin-left: auto;
+}
+}
+
+@media (max-width: 1400px) {
+  .container-middle {
+      max-width: 570px;
+      margin-left: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-middle {
+      max-width: 480px;
+      margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 1570px) and (min-width: 992px) {

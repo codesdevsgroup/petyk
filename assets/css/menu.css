@@ -10,7 +10,7 @@ nav#navigation {
   height: 80px;
   top: 0;
   width: 100vw;
-  background-color: var(--bg-color-2);
+  /* background-color: var(--bg-color-2); */
   align-items: center;
   justify-content: space-between;
 }
@@ -19,6 +19,7 @@ nav#navigation .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px !important;
 }
 
 nav#navigation button {

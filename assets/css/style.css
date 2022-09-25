@@ -34,22 +34,40 @@ body {
 /*=========== home ================*/
 
 #home {
-  background-color: var(--bg-color-2);
-  height: 592px;
-}
-
-#home .container {
   display: flex;
-  margin-top: 80px;
+  height: 672px;
+  background-color: var(--bg-color-2);
+
+  width: 100vw;
 }
 
 #home .menu-options {
   display: none;
 }
 
+#home .image-home {
+  background-image: url("../img/image-home.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50vw;
+}
+
 #home .home-contents {
-  width: 340px;
-  height: 592px;
+  width: 50vw;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.container-middle {
+  
+}
+
+#home .home-contents > div {
+  width: 328px;
   display: flex;
   flex-direction: column;
   justify-content: center;
