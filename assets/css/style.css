@@ -319,6 +319,14 @@ body {
   background: #FFFFFF;
 }
 
+#about div #video{
+   margin-left: 323px ;
+   padding: 80px 0 42px 0;
+   display: flex;
+}
+
+
+
 /*=========== contact ================*/
 
 #contact .container{
