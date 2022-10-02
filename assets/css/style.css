@@ -330,5 +330,27 @@ body {
 /*=========== contact ================*/
 
 #contact .container{
-  background: red;
+  
+}
+
+/*========== footer ===============*/
+#footer {
+  background-color: var(--nav-secondary-color);
+  width: 1400px;
+  height: 470px;
+}
+
+.footernav {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.footernav li {
+  padding: 20px;
+}
+
+.footernav a {
+  color: #FFFFFF;
 }
