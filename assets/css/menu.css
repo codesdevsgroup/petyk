@@ -29,6 +29,12 @@ nav#navigation button {
   height: 25px;
   width: 35px;
 }
+
+nav#navigation .close_menu {
+  position: absolute;
+  top: 39px;
+  left: 0;
+}
   
 nav#navigation .menu-options {
   display: flex;
