@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px dotted red;
 }
 
 :root {
@@ -383,12 +382,14 @@ body {
 
 /*=========== contact ================*/
 
-
+iframe {
+  max-width: 100%;
+}
 
 /*========== footer ===============*/
 #footer {
   background-color: var(--nav-secondary-color);
-  width: 1400px;
+  width: 100vw;
   height: 470px;
 }
 
