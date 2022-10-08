@@ -1,11 +1,20 @@
+$(function() {
+  $('.toggle-nav').click(function (e) {
+    e.stopPropagation()
+    toggleNav()
+  })
 
-function showMenu() {
-  let menu = document.querySelector('.menu-options') 
+  $("#home").click(function(e) {
+    var target = $(e.target)
+    if (!target.closest('#navigation').length && $('.menu-options').hasClass('active-menu')) toggleNav()
+  })
 
-  if (menu.classList.contains('active_menu')) {
-    menu.style.name = "slideout"
-    menu.classList.remove('active_menu')
-  } else {
-    menu.classList.add('active_menu')
+  function toggleNav() {
+    if($(".menu-options").hasClass("active_menu")) {
+      $(".menu-options").removeClass("active_menu")
+    } else {
+      $(".menu-options").addClass("active_menu")
+    }
   }
-}
+})
+

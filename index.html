@@ -12,6 +12,7 @@
     <title>Petyk Eucalipto Tratado</title>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,36 +28,37 @@
 
 <body>
 
-  <nav id="navigation">
-    <div class="container">
-      <a><img class="logo" src="./assets/img/logo.png" alt="logo"/></a>
-      <button class="open_menu" onclick="showMenu()">
-        <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2 2H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M2 11.7385H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M2 21.4771H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-    <div class="menu-options">
-      <button class="close_menu" onclick="showMenu()">
-        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9 17L1 9L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg> 
-      </button>
-
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">produtos</a></li>
-        <li><a href="#">aplicação</a></li>
-        <li><a href="#">diferencial</a></li>
-        <li><a href="#">sobre nós</a></li>
-        <li><a href="#">contatos</a></li>
-      </ul>
-    </div>
-  </nav>
-
   <section id="home">
+
+    <nav id="navigation">
+      <div class="container">
+        <a><img class="logo" src="./assets/img/logo.png" alt="logo"/></a>
+        <button class="toggle-nav open_menu">
+          <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 11.7385H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 21.4771H31" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-options">
+        <button class="toggle-nav close_menu">
+          <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 17L1 9L9 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg> 
+        </button>
+  
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">produtos</a></li>
+          <li><a href="#">aplicação</a></li>
+          <li><a href="#">diferencial</a></li>
+          <li><a href="#">sobre nós</a></li>
+          <li><a href="#">contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="home-contents container-middle">
       <div>
         <h2 class="">Petyk</h2>

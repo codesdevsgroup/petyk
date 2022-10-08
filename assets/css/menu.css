@@ -31,34 +31,27 @@ nav#navigation button {
 }
   
 nav#navigation .menu-options {
-  display: none;
+  display: flex;
+  position: fixed;
+  z-index: 100;
   background-color: var(--nav-secondary-color);
   height: 100vh;
   width: calc(20vh + 20%);
-  right: -500px;
-  animation-duration: 500ms;
-  animation-name: slideout;
+  right: calc(-20vh - 20%);
+  top: 0;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 nav#navigation .active_menu {
-  display: flex;
-  position: fixed;
   right: 0;
   top: 0;
-  z-index: 100;
-  transition: left 200ms;
-  animation-duration: 500ms;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    right: -500px;
-  }
-
-  to {
-    right: 0px;
-  }
 }
   
 #navigation li {
