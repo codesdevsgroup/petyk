@@ -103,6 +103,11 @@ body {
   margin-top: 40px;
 }
 
+#home .home-contents button:hover {
+  border-color: #DEAD28;
+  background-color: #DEAD28;
+}
+
 #home .home-contents a {
   font-family: 'Montserrat';
   font-weight: 700;
