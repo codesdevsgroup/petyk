@@ -76,7 +76,7 @@ nav#navigation .active_menu {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2559px) {
   nav#navigation .menu-options {
     width: calc(30vh + 20%);
     right: calc(-30vh - 20%);
@@ -87,20 +87,7 @@ nav#navigation .active_menu {
   }
 }
 
-
-@media screen and (min-width: 2560px) {
-  nav#navigation .menu-options {
-    width: calc(30vh + 20%);
-    right: calc(-30vh - 20%);
-  }
-
-  nav#navigation .active_menu {
-    right: 0;
-  }
-}
-
-
-@media screen and (max-width: 2560px) and (min-width: 2250px) {
+@media screen and (max-width: 2559px) and (min-width: 2250px) {
   nav#navigation .menu-options {
     width: calc(25vh + 20%);
     right: calc(-25vh - 20%);
