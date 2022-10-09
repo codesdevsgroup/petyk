@@ -486,6 +486,7 @@ iframe {
 
 .footernav a {
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 #footer h4{
@@ -499,7 +500,8 @@ iframe {
 #footer h4::after{
   content: "";
   width: 90px;
-  border: 1px solid #FFFFFF;
+  height: 3px;
+  background-color: #FFFFFF;
   margin-top: 5px;
 }
 

@@ -2,8 +2,16 @@
 
 onScroll()
 function onScroll() {
-  // showNavOnScroll()
+  showNavOnScroll()
   showBackTopButtonOnScroll()
+}
+
+function showNavOnScroll() {
+  if (window.scrollY > 100) {
+    $("#navigation").addClass("scroll")
+  } else {
+    $("#navigation").removeClass("scroll")
+  }
 }
 
 function showBackTopButtonOnScroll() {
