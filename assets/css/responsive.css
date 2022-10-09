@@ -155,7 +155,7 @@
   }
 
   #reference h4, #products h4 {
-    font-size: 20px;
+    font-size: 24px;
     align-items: center;
   }
 
@@ -343,5 +343,65 @@
   .footernav li a {
     text-decoration: none;
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Home */
+  #home .home-contents {
+    width: 540px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  nav#navigation .container {
+    width: 340px;
+  }
+
+  /* Home */
+  #home .home-contents {
+    width: auto;
+  }
+
+  /* Feedstock */
+
+  .validation-numbers .numbers {
+    justify-content: center;
+  }
+
+  .validation-numbers .numbers > div {
+    align-items: center;
+    padding: 0;
+  }
+
+  .validation-numbers .numbers > div:nth-child(2) {
+    margin: 0 10px;
+  }
+
+  .validation-numbers .numbers > div > p {
+    width: 100px;
+  }
+
+  .section-details .texts {
+    padding-right: 0;
+  }
+
+  /* modal */
+
+  #modal .use .col-sm-3 {
+    width: 100%;
+  }
+
+  /* modal */
+
+  #about .conteudo_about {
+    padding-top: 0px;
+  }
+
+  
+  #about .conteudo_about .about_text {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
   }
 }
