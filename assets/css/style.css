@@ -398,7 +398,8 @@ h1,h2,h3,h4,h5{
 #about .about_text h3::after{
   content: "";
   width: 75px;
-  border: 1px solid #495833;
+  height: 3px;
+  background-color: #495833;
   margin-top: 10px;
 }
 
@@ -437,7 +438,8 @@ iframe {
 .cardcontato h3::after{
   content: "";
   width: 75px;
-  border: 1px solid #FFFFFF;
+  height: 3px;
+  background-color: #FFFFFF;
   margin-top: 10px;
 }
 
@@ -499,4 +501,18 @@ iframe {
   width: 90px;
   border: 1px solid #FFFFFF;
   margin-top: 5px;
+}
+
+#backToTopButton {
+  position: fixed;
+  bottom: -26px;
+  right: 26px;
+}
+
+
+#backToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 26px;
 }

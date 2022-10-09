@@ -404,4 +404,18 @@
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
   }
+
+  .modal-body div input {
+    width: 320px;
+    font-size: 14px;
+  }
+
+  .modal-body div textarea {
+    width: 320px;
+    font-size: 14px;
+  }
+
+  .modal-body h2 {
+    font-size: 24px;
+  }
 }
