@@ -64,7 +64,6 @@ nav#navigation .active_menu {
 #navigation ul {
   padding: 0;
   justify-self: center;
-  margin-top: 59px;
   width: 150px;
 }
   
@@ -85,7 +84,7 @@ nav#navigation .active_menu {
 }
 
 #navigation li:first-child {
-  margin-top: 50px;
+  margin-top: 80px;
 }
   
 #navigation ul li a{
