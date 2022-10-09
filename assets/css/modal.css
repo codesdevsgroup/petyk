@@ -71,6 +71,14 @@
     padding-top: 80px;
 }
 
+#modal .use h2 {
+    color: #FFFFFF;
+}
+
+#modal .use h2::after {
+    background-color: #FFFFFF;
+}
+
 #modal {
     height: 588px;
 }
