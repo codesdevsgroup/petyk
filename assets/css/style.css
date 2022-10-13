@@ -470,7 +470,7 @@ iframe {
 #footer {
   background-color: var(--nav-secondary-color);
   width: 100vw;
-  height: 417px;
+  height: 400px;
 }
 
 .footernav {
@@ -517,4 +517,13 @@ iframe {
   position: fixed;
   bottom: 15px;
   right: 26px;
+}
+
+.codesdevs {
+  color: #FFFFFF;
+  font-size: 14px;
+
+}
+.codesdevs ul {
+  margin-bottom: 0px;
 }
