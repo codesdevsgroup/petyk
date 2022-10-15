@@ -220,7 +220,7 @@ h1,h2,h3,h4,h5{
 /*=========== reference ================*/
 
 #reference {
-  margin-block: 80px;
+  padding-block: 80px;
 }
 
 #reference h2,
@@ -313,7 +313,7 @@ h1,h2,h3,h4,h5{
 /*=========== product ================*/
 #products {
   background-color: #FFFFFF;
-  padding: 50px 0;
+  padding: 80px 0 50px 0;
 }
 #products h2 {
   text-align: center;
