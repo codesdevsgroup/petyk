@@ -6,7 +6,10 @@ $(function() {
 
   $("#home").click(function(e) {
     var target = $(e.target)
-    if (!target.closest('#navigation').length && $('.menu-options').hasClass('active-menu')) toggleNav()
+    if (!target.is('.menu-options') && !target.is('.menu-options ul')) {
+      toggleNav()
+      console.log('teste')
+    }
   })
 
   function toggleNav() {
