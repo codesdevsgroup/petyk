@@ -4,11 +4,10 @@ $(function() {
     toggleNav()
   })
 
-  $("#home").click(function(e) {
+  $('body').click(function(e) {
     var target = $(e.target)
-    if (!target.is('.menu-options') && !target.is('.menu-options ul')) {
+    if (!target.is('.menu-options') && !target.is('.menu-options ul') && $(".menu-options").hasClass("active_menu")) {
       toggleNav()
-      console.log('teste')
     }
   })
 
