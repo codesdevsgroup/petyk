@@ -39,6 +39,12 @@
     left: 50px;
     top: 175px;
 }
+
+#modal .btn-modal:hover{
+    border-color: #DEAD28;
+    background-color: #DEAD28;
+}
+
 #modal p {
     font-family: 'Montserrat';
     font-weight: 700;

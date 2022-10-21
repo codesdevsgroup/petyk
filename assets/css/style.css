@@ -462,8 +462,18 @@ iframe {
   font-family: 'Montserrat';
 }
 
+.cardcontato button:hover{
+  border-color: #DEAD28;
+  background-color: #DEAD28;
+}
+
 .cardcontato .btn_wp{
   margin-right: 30px;
+}
+
+.cardcontato .btn_wp:hover{
+  border-color: #DEAD28;
+  background-color: #DEAD28;
 }
 
 /*========== footer ===============*/
