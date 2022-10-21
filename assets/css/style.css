@@ -272,7 +272,7 @@ section{
 
 #reference .ref-texts {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
@@ -395,6 +395,7 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 
@@ -403,7 +404,7 @@ section{
   width: 75px;
   height: 3px;
   background-color: #495833;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 #about .about_text p{
