@@ -166,7 +166,7 @@ h1,h2,h3,h4,h5{
 }
 
 .section-details {
-  padding: 80px 0;
+  padding: 160px 0;
 }
 
 .section-details .container {
@@ -220,7 +220,7 @@ h1,h2,h3,h4,h5{
 /*=========== reference ================*/
 
 #reference {
-  padding-block: 80px;
+  padding-block: 160px;
 }
 
 #reference h2,
@@ -313,7 +313,7 @@ h1,h2,h3,h4,h5{
 /*=========== product ================*/
 #products {
   background-color: #FFFFFF;
-  padding: 80px 0 50px 0;
+  padding: 160px 0 50px 0;
 }
 #products h2 {
   text-align: center;
@@ -370,7 +370,7 @@ h1,h2,h3,h4,h5{
 }
 
 #about .conteudo_about{
-  padding: 80px 0 42px 0;
+  padding: 160px 0 120px 0;
 }
 
 #about div #video {
@@ -421,7 +421,7 @@ iframe {
 }
 
 #contact{
-  padding: 80px 0;
+  padding: 160px 0;
 }
 
 .cardcontato h3{

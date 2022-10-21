@@ -72,7 +72,7 @@
     line-height: 48px;
     text-transform: uppercase;
     color: #495833;
-    padding-top: 80px;
+    padding-top: 160px;
 }
 
 #modal .use h2 {
@@ -84,7 +84,7 @@
 }
 
 #modal {
-    height: 588px;
+    height: 708px;
 }
 
 .modaluse {
