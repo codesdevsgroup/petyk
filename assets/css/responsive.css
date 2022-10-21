@@ -138,7 +138,8 @@
 
   /* referency */
   #reference {
-    margin-block: 60px;
+    margin-block: 80px;
+    padding-block: 0px;
   }
 
   #reference h2, #products h2 {
