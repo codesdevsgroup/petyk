@@ -129,6 +129,9 @@
     width: 220px;
     height: 287px;
 }
+#modal-grid-img {
+    padding: 50px 250px 20px;
+}
 /*Modal Contato*/
 
 
@@ -136,43 +139,42 @@
         border-radius: 0;  
     }
 
-    .modal-body {
+    #contact .modal-body {
         display: flex;
         flex-direction: column;
         align-items: center; 
     }
 
-    .modal-body form {
+    #contact .modal-body form {
         display: flex;
         flex-direction: column;
         align-items: center;
       }
 
-    .modal-body div {
+    #contact .modal-body div {
       margin: 10px;
       display: flex;
       flex-direction: column;
       align-items: center; 
-
     }
 
-    .modal-body div label{
+    #contact .modal-body div label{
         display:flex;       
     }
 
-    .modal-body div input{
+    #contact .modal-body div input{
         display: flex;
         height: 40px;
         width: 520px;
         border: 3px solid #495833;   
     }
 
-    .modal-body div textarea{
+    #contact .modal-body div textarea{
         width: 520px;
         border: 3px solid #495833;
     }
 
-    .modal-body div button{
+    #contact .modal-body div button{
         padding: 10px 38px;
         font-family: 'Montserrat';
         font-weight: 700;
@@ -181,7 +183,6 @@
         text-transform: uppercase; 
         color: #495833;
         background: #DEAD28;
-         
     }
 
     /*Modal Como Utlizar*/
