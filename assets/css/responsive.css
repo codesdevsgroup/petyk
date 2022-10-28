@@ -21,6 +21,10 @@
       max-width: 480px;
       margin-left: auto;
   }
+
+  #modal-grid-img {
+    padding: 30px 40px;
+}
 }
 
 @media screen and (max-width: 1570px) and (min-width: 992px) {
@@ -238,10 +242,30 @@
     height: auto;
   }
 
+  #modal-grid-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #modal-grid-img > div {
+    width: 100%;
+  }
+
   #modal .use h2 {
     font-size: 28px;
     line-height: 42px;
     padding: 80px 80px 0 80px;
+  }
+
+  .titulo_modal_comoutilizar {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+
+  text-transform: capitalize;
+  color: #495833;
+
   }
 
   #modal .use .col-sm-3 {
@@ -400,7 +424,10 @@
     padding-top: 0px;
   }
 
-  
+  #modal-grid-img {
+    padding: 30px 20px;
+  }
+
   #about .conteudo_about .about_text {
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
