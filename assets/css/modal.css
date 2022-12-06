@@ -109,23 +109,23 @@
 }
 
 .modal1 {
-    background-image: url("../img/modal01.jpg");
+    background-image: url("../img/modal01.webp");
     width: 220px;
     height: 287px;
 }
 
 .modal2 {
-    background-image: url("../img/modal02.jpg");
+    background-image: url("../img/modal02.webp");
     width: 220px;
     height: 287px;    
 }
 .modal3 {
-    background-image: url("../img/modal03.jpg");
+    background-image: url("../img/modal03.webp");
     width: 220px;
     height: 287px;
 }
 .modal4 {
-    background-image: url("../img/modal04.jpg");
+    background-image: url("../img/modal04.webp");
     width: 220px;
     height: 287px;
 }
