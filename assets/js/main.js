@@ -22,17 +22,11 @@ function showBackTopButtonOnScroll() {
   }
 }
 
-
-$(document).ready(function () {
+$(window).on("load", function(){
   $('#video').html(`
-  <iframe class="embed-responsive-item"
-  width="848" 
-  height="480" 
-  src="https://www.youtube.com/embed/GQyBj67gKvs" 
-  title="YouTube video player"     
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-  </iframe>
+  <video width="848" height="480" class="embed-responsive-item" controls>
+    <source src="./assets/video/madeireira_petyk.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
   `)
-})
+});

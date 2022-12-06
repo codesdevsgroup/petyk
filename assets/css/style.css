@@ -420,7 +420,7 @@ color: #495833;
 
 /*=========== contact ================*/
 
-iframe {
+iframe, video {
   max-width: 100%;
 }
 

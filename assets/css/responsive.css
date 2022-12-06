@@ -279,7 +279,7 @@
 
   /* about */
 
-  #about div #video iframe {
+  #about div #video video {
     aspect-ratio: 16/9;
     height: auto;
 
