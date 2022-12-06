@@ -32,7 +32,7 @@ body {
 }
 
 h1,h2,h3,h4,h5{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 section{
   overflow-x: hidden;
@@ -114,7 +114,7 @@ section{
 }
 
 #home .home-contents a {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -409,7 +409,7 @@ section{
 
 #about .about_text p{
 margin-bottom: 1.5em;
-font-family: 'Inter';
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -455,7 +455,7 @@ iframe {
 
 .cardcontato p{
   color: #FFFFFF;
-  font-family: 'Inter'; 
+  font-family: 'Inter', sans-serif; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -469,7 +469,7 @@ iframe {
   border: 3px solid #FFFFFF;
   margin-top: 40px;
   color: #FFFFFF;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cardcontato button:hover{
